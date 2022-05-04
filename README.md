@@ -4,8 +4,11 @@
 
 > This To-do-list-webpack site provides users a convenient way to keep track of their everyday tasks.
 
+<<<<<<< HEAD
 ![screenshot](./screen.png)
 
+=======
+>>>>>>> 902f27798116577d2878b3c1736a290001cdc251
 ## Built With
 
 - HTML
@@ -40,4 +43,8 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
+<<<<<<< HEAD
 This project is [Minimalist](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/) licensed.
+=======
+This project is MIT licensed.
+>>>>>>> 902f27798116577d2878b3c1736a290001cdc251
