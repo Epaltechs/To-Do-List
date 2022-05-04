@@ -38,4 +38,4 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
-This project is [Minimalist](https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/) licensed.
+This project is MIT licensed.
