@@ -16,5 +16,3 @@ addTodoBtn.addEventListener('click', () => {
     render(todosList);
   }
 });
-
-render(todosList);

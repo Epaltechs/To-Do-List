@@ -16,6 +16,7 @@
 .title {
   padding: 3%;
   color: rgb(7, 7, 6);
+  font-size: 25px;
 }
 
 form {
@@ -38,6 +39,7 @@ form input[type='text'] {
   font-style: italic;
   width: 85%;
   padding: 3%;
+  font-size: 16px;
 }
 
 form .add-btn {
@@ -48,20 +50,6 @@ form .add-btn {
 input[type='text']:focus {
   outline: none;
 }
-
-/* .container input[type='text'] {
-  width: 94%;
-  font-style: italic;
-  border-top: 0.6px solid rgb(216, 216, 216);
-  border-right: none;
-  border-bottom: 0.6px solid rgb(216, 216, 216);
-  border-left: none;
-  padding: 3%;
-}
-
-.container input[type='text']:focus {
-  outline: none;
-} */
 
 .todo-item {
   padding: 3%;
@@ -82,14 +70,15 @@ button {
   background-color: rgba(240, 240, 240, 0.493);
   text-align: center;
   padding: 3%;
+  font-size: 18px;
 }
 
 .clear a {
-  color: rgba(0, 217, 255, 0.507);
+  color: grey;
 }
 
 .clear a:hover {
-  color: rgb(76, 0, 255);
+  color: orange;
   text-decoration: underline;
   font-weight: bold;
 }
