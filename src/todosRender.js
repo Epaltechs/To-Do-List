@@ -7,8 +7,8 @@ const render = (todosList) => {
     const checkClass = todo.completed ? 'checked' : '';
     todosHtml += `  <div class="todo-item">
                           <div>
-                              <input type="checkbox" />
-                              <input id="${todo.index}" class="todo-edit" type="text" value="${todo.description}" />
+                              <input id="${todo.index}" type="checkbox" class="todo-check" ${checkedTodo}/>
+                              <input id="${todo.index}" class="todo-edit ${checkClass}" type="text" value="${todo.description}" />
                           </div>
                           <button id="${todo.index}" class="remove-btn"> <i class="fas fa-trash"></i></button>
                       </div>

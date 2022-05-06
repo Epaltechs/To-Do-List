@@ -1,5 +1,3 @@
-import completeHelper from './helper';
-
 export default class Todos {
   constructor() {
     this.list = localStorage.getItem('todos')
@@ -29,12 +27,13 @@ export default class Todos {
   }
 
   completeTodo(todoId, status) {
-    completeHelper(this.list, todoId, status);
+    this.list[todoId - 1].completed = status;
+    localStorage.setItem('todos', JSON.stringify(this.list));
   }
 
   clearCompletedTodos() {
     this.list = this.list.filter((todo) => !todo.completed);
-   const todos = this.list.map((data, idx) => ({ ...data, index: idx + 1 }));
+    const todos = this.list.map((data, idx) => ({ ...data, index: idx + 1 }));
     localStorage.setItem('todos', JSON.stringify(todos));
   }
 }

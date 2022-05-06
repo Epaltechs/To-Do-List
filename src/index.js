@@ -1,6 +1,6 @@
 import './style.css';
-import render from './todosRender';
-import Todos from './todos';
+import render from './todosRender.js';
+import Todos from './todos.js';
 
 const todosList = new Todos();
 render(todosList);
@@ -23,7 +23,7 @@ addTodoBtn.addEventListener('click', () => {
 });
 
 // clear all completed todos
-const clearBtn = document.querySelector('.clear-btn');
+const clearBtn = document.querySelector('.clear');
 clearBtn.addEventListener('click', () => {
   todosList.clearCompletedTodos();
   render(todosList);
