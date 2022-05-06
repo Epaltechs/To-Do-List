@@ -25,4 +25,15 @@ export default class Todos {
     });
     localStorage.setItem('todos', JSON.stringify(newData));
   }
+
+  completeTodo(todoId, status) {
+    this.list[todoId - 1].completed = status;
+    localStorage.setItem('todos', JSON.stringify(this.list));
+  }
+
+  clearCompletedTodos() {
+    this.list = this.list.filter((todo) => !todo.completed);
+    const todos = this.list.map((data, idx) => ({ ...data, index: idx + 1 }));
+    localStorage.setItem('todos', JSON.stringify(todos));
+  }
 }
