@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # To-Do-list
 
 > This To-do-list-webpack site provides users a convenient way to keep track of their everyday tasks.
@@ -23,8 +21,8 @@
 👤 **Emmanuel Paul**
 
 - GitHub: [Emmanuel Paul](https://github.com/Epaltechs/Webpack)
-- Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
-- LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4)
+- Twitter: [Emmanuel Paul][http://twitter.com/@emmapaul247]
+- LinkedIn: [Emmanuel Paul][https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 
 
 ## 🤝 Contributing
@@ -43,8 +41,4 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
-<<<<<<< HEAD
 This project is MIT licensed.
-=======
-This project is MIT licensed.
->>>>>>> cabf2a0cd88c70a325f972f34e6a7c0949dee8f5

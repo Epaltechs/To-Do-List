@@ -1,21 +1,30 @@
-/*eslint-disable*/
 import './style.css';
+import render from './todosRender.js';
+import Todos from './todos.js';
 
-const todosList = [
-  { description: 'Second Task', completed: false, index: 2 },
-  { description: 'First Task', completed: false, index: 1 },
-];
-
-const render = (list) => {
-  const sortedTodos = list.sort((a, b) => a.index - b.index);
-  const todosContainer = document.querySelector('.todos');
-  let todosHtml = '';
-  sortedTodos.forEach((todo) => {
-    todosHtml += ` <div class="todo-item">
-        <input type="checkbox" /><span> ${todo.description}</span>
-    </div>`;
-  });
-  todosContainer.innerHTML = todosHtml;
-};
-
+const todosList = new Todos();
 render(todosList);
+
+// add todo
+const addTodoBtn = document.querySelector('.add-btn');
+addTodoBtn.addEventListener('click', () => {
+  const id = `id${Math.random().toString(16).slice(2)}`;
+  const description = document.querySelector('.input-todo').value.trim();
+  const completed = false;
+  const index = todosList.list.length + 1;
+
+  const newTodo = {
+    id, description, completed, index,
+  };
+  if (description) {
+    todosList.addTodo(newTodo);
+    render(todosList);
+  }
+});
+
+// clear all completed todos
+const clearBtn = document.querySelector('.clear');
+clearBtn.addEventListener('click', () => {
+  todosList.clearCompletedTodos();
+  render(todosList);
+});
