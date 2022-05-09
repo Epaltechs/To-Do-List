@@ -23,8 +23,8 @@
 👤 **Emmanuel Paul**
 
 - GitHub: [Emmanuel Paul](https://github.com/Epaltechs/Webpack)
-- Twitter: [Emmanuel Paul][http://twitter.com/@emmapaul247]
-- LinkedIn: [Emmanuel Paul][https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
+- Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
+- LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4)
 
 
 ## 🤝 Contributing
