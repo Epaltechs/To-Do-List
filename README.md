@@ -18,6 +18,10 @@
 2. write npm install in your terminal to install dependencies
 3. write npm start to see the output.
 
+## Live Demo
+
+https://epaltechs.github.io/To-Do-List/
+
 ## Authors
 
 👤 **Emmanuel Paul**
