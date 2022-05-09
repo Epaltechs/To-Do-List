@@ -43,8 +43,4 @@ Give a ⭐ if you like this project!
 
 ## 📝 License
 
-<<<<<<< HEAD
 This project is MIT licensed.
-=======
-This project is MIT licensed.
->>>>>>> cabf2a0cd88c70a325f972f34e6a7c0949dee8f5
