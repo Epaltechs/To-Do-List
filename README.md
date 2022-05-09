@@ -35,9 +35,7 @@ Feel free to check the [issues page](https://github.com/Epaltechs/To-Do-list/iss
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+🎩 Hat tip to anyone whose code was used, gave me inspiration, etc
 
 ## Show your support
 
