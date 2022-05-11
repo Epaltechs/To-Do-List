@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-https://epaltechs.github.io/To-Do-List/dev
+https://epaltechs.github.io/To-Do-List/dist
 
 ## Authors
 
