@@ -4,7 +4,7 @@
 
 > This To-do-list-webpack site provides users a convenient way to keep track of their everyday tasks.
 
-(Tasks.png)
+[screenshot](Tasks.png)
 
 ## Built With
 
