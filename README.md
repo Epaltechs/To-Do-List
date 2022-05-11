@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-https://epaltechs.github.io/To-Do-List/dist
+[Go Live](https://epaltechs.github.io/To-Do-List/dist)
 
 ## Authors
 
